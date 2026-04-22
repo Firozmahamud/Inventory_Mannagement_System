@@ -1,0 +1,83 @@
+2026/04/16 00:24:08 No .env file found
+2026/04/16 00:24:08 Database connected successfully
+2026/04/16 00:24:08 Running database migrations...
+2026/04/16 00:24:09 Database migrations completed
+2026/04/16 00:24:10 ===========================================
+2026/04/16 00:24:10 Starting database seeding...
+2026/04/16 00:24:10 ===========================================
+2026/04/16 00:24:10 Seeding roles...
+2026/04/16 00:24:10   [EXISTS] Role: ADMIN
+2026/04/16 00:24:10   [EXISTS] Role: MANAGER
+2026/04/16 00:24:10   [EXISTS] Role: STAFF
+2026/04/16 00:24:10   [EXISTS] Role: VIEWER
+2026/04/16 00:24:10 Seeding permissions...
+2026/04/16 00:24:10   [EXISTS] Permission: view_dashboard
+2026/04/16 00:24:10   [EXISTS] Permission: view_products
+2026/04/16 00:24:10   [EXISTS] Permission: create_products
+2026/04/16 00:24:10   [EXISTS] Permission: update_products
+2026/04/16 00:24:10   [EXISTS] Permission: delete_products
+2026/04/16 00:24:10   [EXISTS] Permission: view_inventory
+2026/04/16 00:24:10   [EXISTS] Permission: create_inventory
+2026/04/16 00:24:10   [EXISTS] Permission: update_inventory
+2026/04/16 00:24:10   [EXISTS] Permission: delete_inventory
+2026/04/16 00:24:10   [EXISTS] Permission: view_orders
+2026/04/16 00:24:10   [EXISTS] Permission: create_orders
+2026/04/16 00:24:10   [EXISTS] Permission: update_orders
+2026/04/16 00:24:10   [EXISTS] Permission: delete_orders
+2026/04/16 00:24:10   [EXISTS] Permission: approve_orders
+2026/04/16 00:24:10   [EXISTS] Permission: view_suppliers
+2026/04/16 00:24:10   [EXISTS] Permission: create_suppliers
+2026/04/16 00:24:10   [EXISTS] Permission: update_suppliers
+2026/04/16 00:24:10   [EXISTS] Permission: delete_suppliers
+2026/04/16 00:24:10   [EXISTS] Permission: view_warehouses
+2026/04/16 00:24:10   [EXISTS] Permission: create_warehouses
+2026/04/16 00:24:10   [EXISTS] Permission: update_warehouses
+2026/04/16 00:24:10   [EXISTS] Permission: delete_warehouses
+2026/04/16 00:24:10   [EXISTS] Permission: view_users
+2026/04/16 00:24:10   [EXISTS] Permission: create_users
+2026/04/16 00:24:10   [EXISTS] Permission: update_users
+2026/04/16 00:24:10   [EXISTS] Permission: delete_users
+2026/04/16 00:24:10   [EXISTS] Permission: view_roles
+2026/04/16 00:24:10   [EXISTS] Permission: create_roles
+2026/04/16 00:24:10   [EXISTS] Permission: update_roles
+2026/04/16 00:24:10   [EXISTS] Permission: delete_roles
+2026/04/16 00:24:10   [EXISTS] Permission: manage_permissions
+2026/04/16 00:24:10   [EXISTS] Permission: view_reports
+2026/04/16 00:24:10   [EXISTS] Permission: export_data
+2026/04/16 00:24:10   [EXISTS] Permission: manage_notifications
+2026/04/16 00:24:10 Seeding role permissions...
+2026/04/16 00:24:10   ADMIN role: 0 permissions assigned
+2026/04/16 00:24:10   MANAGER role: 22 permissions assigned
+2026/04/16 00:24:10   STAFF role: 12 permissions assigned
+2026/04/16 00:24:10   VIEWER role: 9 permissions assigned
+2026/04/16 00:24:10 Seeding admin user...
+2026/04/16 00:24:10   [EXISTS] Admin user: admin@inventory.com
+2026/04/16 00:24:10   [EXISTS] ADMIN role already assigned to: admin@inventory.com
+2026/04/16 00:24:10 Seeding warehouses...
+2026/04/16 00:24:10   [EXISTS] Warehouse: WH001
+2026/04/16 00:24:10   [EXISTS] Warehouse: WH002
+2026/04/16 00:24:10   [EXISTS] Warehouse: WH003
+2026/04/16 00:24:10 Seeding categories...
+2026/04/16 00:24:10   [EXISTS] Category: Electronics
+2026/04/16 00:24:10   [EXISTS] Category: Clothing
+2026/04/16 00:24:10   [EXISTS] Category: Office Supplies
+2026/04/16 00:24:10   [EXISTS] Category: Home & Garden
+2026/04/16 00:24:10   [EXISTS] Category: Sports
+2026/04/16 00:24:10 Seeding suppliers...
+2026/04/16 00:24:10   [EXISTS] Supplier: SUP001
+2026/04/16 00:24:10   [EXISTS] Supplier: SUP002
+2026/04/16 00:24:10   [EXISTS] Supplier: SUP003
+2026/04/16 00:24:10 Seeding sample products...
+2026/04/16 00:24:10   [EXISTS] Product: ELEC001
+2026/04/16 00:24:10   [EXISTS] Product: ELEC002
+2026/04/16 00:24:10   [EXISTS] Product: ELEC003
+2026/04/16 00:24:10   [EXISTS] Product: CLTH001
+2026/04/16 00:24:10   [EXISTS] Product: CLTH002
+2026/04/16 00:24:10   [EXISTS] Product: OFFC001
+2026/04/16 00:24:10   [EXISTS] Product: OFFC002
+2026/04/16 00:24:10 Seeding storage locations...
+2026/04/16 00:24:10 ===========================================
+2026/04/16 00:24:10 Database seeding completed successfully!
+2026/04/16 00:24:10 ===========================================
+2026/04/16 00:24:11 Server running on port 8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.

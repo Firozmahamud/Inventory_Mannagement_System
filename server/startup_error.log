@@ -1,0 +1,2 @@
+2026/04/16 00:56:13 No .env file found
+2026/04/16 00:56:14 Failed to connect to database: failed to connect to database: failed to connect to `host=localhost user=postgres database=inventory`: failed SASL auth (FATAL: password authentication failed for user "postgres" (SQLSTATE 28P01))
